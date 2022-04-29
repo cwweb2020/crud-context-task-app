@@ -3,7 +3,7 @@ import { TaskConsumer } from "../context/TaskContext";
 
 const DataInput = () => {
   const inputSpace = useRef();
-  const { task, getDataFromInput, packDataInput, edit } = TaskConsumer();
+  const { task, getDataFromInput, packDataInput } = TaskConsumer();
 
   const handleData = (e) => {
     let value = e.target.value;
