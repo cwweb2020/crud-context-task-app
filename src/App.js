@@ -15,7 +15,7 @@ const App = () => {
     <>
         <div className="container p-4">
           <div className="row">
-            <div className="col-4">
+            <div className="col-6">
               <h1 className="fs-3 text-capitalize">{edit ? 'edit task' : 'enter task'}</h1>
               {edit ? <EditForm /> : <DataInput />}
               <TasksView />
