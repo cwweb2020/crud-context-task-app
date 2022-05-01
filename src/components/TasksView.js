@@ -25,7 +25,7 @@ const TasksView = () => {
 
   return (
     <>
-      <section className="py-4">
+      <section className="py-4 seccion-total">
         <div className="wrapper">
         <h2 className="fs-4 text-capitalize my-3">task list</h2>
           <ul>
