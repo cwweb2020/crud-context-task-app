@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <>
-        <div className="container p-4">
+        <div className="container py-4 px-3">
           <div className="row">
             <div className="col-lg-6 col-xs-12">
               <h1 className="fs-3 text-capitalize">{edit ? 'edit task' : 'enter task'}</h1>
