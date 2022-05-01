@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { TaskConsumer } from "../context/TaskContext";
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
 
 const DataInput = () => {
   const inputSpace = useRef();
@@ -30,7 +32,8 @@ const DataInput = () => {
           className="form-control"
           onChange={handleData}
         />
-        <button className="btn btn-primary my-3 w-100">Add</button>
+        <Button type="submit" className="btn btn-primary my-3 w-100" variant="contained">Add</Button>
+        {/* <button className="btn btn-primary my-3 w-100">Add</button> */}
       </form>
     </>
   );
